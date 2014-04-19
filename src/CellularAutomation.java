@@ -1,8 +1,7 @@
 
 public class CellularAutomation {
-	public static void main(String[] arg){
-		int n1 = 0, n2 = 0;
-		int cells[][] = new int[n1][n2];
+	public static void main(String[] arg){		
+		int cells[][] = new int[5][5];
 		EvaluateCells evaluate = new EvaluateCells(cells);
 		evaluate.loopCells();
 	}
